@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!--Meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Special meta tags-->
+        <meta name="description" content="Beautiful houses to rent or buy for affordable prices">
+        <meta name="keywords" content="houses, flats, houses r us, houses for rent, houses for sale, flats for rent, flats for sale, affordable homes, affordable houses, luxury homes, luxury houses, luxury flats, homes for rent, homes for sale">
+        <meta name="author" content="K G M withanawasam">
+
+        <!--Shortcut icon/ image for the head of the page-->
+        <link rel="shortcut icon" href="./images/page_icon.png"> 
+
+        <!--linking the external css-->
+        <link rel="stylesheet" href="shared.css"> <!--general css used for every web page-->
+        <link rel="stylesheet" href="./advertisements/for_rent_and_sale.css"> <!--CSS file mainly in for sale and for rent pages-->
+        <link rel="stylesheet" href="main.css"> <!--style sheet used to style this html document-->
+        
+        <!--title of the web page-->
+        <title>Houses R US - Home</title>
+
+    </head>
+
+
+    <!--body of the page which is visible to the user-->
+    <body>
+        <!--header of the page-->
+        <header id="main_header">
+            <div style="padding: 5px;">
+                <div id="header_image_container">
+                    <!--linking the logo image-->
+                    <img src="./images/home.png" alt="Image of Houses R US logo"> 
+                    <!-- image source: https://www.clipartmax.com/middle/m2H7G6N4G6b1H7G6_simplify-the-workflow-even-in-your-most-complex-scanning-white-house-icon/ -->
+                </div>
+                <div id="header_text">
+                    <h1>Houses R US</h1>
+                </div>
+            </div>
+
+            <!--main navigation bar of the page-->
+            <nav id="main_nav_bar" >
+                <table id="main_nav_bar_container">
+                    <tr>
+                        <th>
+                            <!--huperlink to home page-->
+                            <a href="./index.html" title="Go to home page">
+                                Home
+                            </a>
+                        </th>
+
+                        <th>
+                            <!--huperlink to sale page-->
+                            <a href="./advertisements/for_sale/for_sale.html" title="Go to properties for sale page">
+                                For Sale
+                            </a>
+                        </th>
+
+                        <th>
+                            <!--huperlink to rent page -->
+                            <a href="./advertisements/for_rent/for_rent.html" title="Go to properties for rent page">
+                                For Rent
+                            </a>
+                        </th>
+
+                        <th>
+                            <!--huperlink to contact us page -->
+                            <a href="./contact_us/contact.html" title="Go to contact us">
+                                Contact Us
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        
+        <!--Primary content area of the page-->
+        <main>
+            <!--welcome text area-->
+            <div id="home_image_container">
+                <div>
+                    Find a shelter  for you and your family
+                    <br>
+                    <br>
+                    "Visit us to find a perfect home for you and your family.
+                    We have a range of affordable homes available for rent or buy." 
+                </div>
+            </div>
+
+            <!--advertisement heading of the home page-->
+            <h2>
+                Latest Homes
+            </h2>
+
+            <div id="properties_tables_container">
+                <!--Informations about a  property-->
+                <table class="property_table" style="display: inline-block; margin-right:45px;">
+                    <tr>
+                        <td>
+                            <!--linking the image of the property-->
+                            <img src="./advertisements/for_rent/detached/brent_cross/images/detached_brent_cross_1.jpg" alt="Detached house in Brent Cross">
+                            <!--image source: https://media.rightmove.co.uk/98k/97202/102261041/97202_10749742_IMG_00_0000.jpeg-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background:  rgb(124, 39, 202); text-align: justify;">
+                            <h3 style="margin: 10px;">
+                                This new luxury house is now available for rent.
+                                <br>
+                                <br>
+                                <!--hyperlink to the relavant page-->
+                                <a href="./advertisements/for_rent/detached/brent_cross/brent_cross.html#new_luxury_house" style="color: white;" title="view more details about the property">
+                                    Click here to find out more.
+                                </a>
+                                <br>
+                                <br>
+                            </h3>
+                        </td>
+                    </tr>  
+                </table>
+
+                <!--Informations about a  property-->
+                <table class="property_table" style="display: inline-block;">
+                    <tr>
+                        <td>
+                            <!--linkng the image of the property-->
+                            <img src="./advertisements/for_sale/flats/wembley/images/wembley_1.jpg" alt="New apartment complex in wembley">
+                            <!--image source: https://media.rightmove.co.uk/70k/69996/72188565/69996_102866002877_IMG_01_0000.jpg-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background:  rgb(124, 39, 202);">
+                            <h3 style="margin: 10px; text-align: justify;">
+                                Flats in new apartment complex are now available for sale.
+                                <br>
+                                <br>
+                                <!--hyperlink to the relavant page-->
+                                <a href="./advertisements/for_sale/flats/wembley/wembley.html#new_apartment_complex" style="color: white;" title="View more details about the apartment complex">
+                                    Click here to find out more.
+                                </a>
+                                <br>
+                                <br>
+                            </h3>
+                        </td>
+                    </tr>  
+                </table>
+            </div>
+
+            <!--advertisement about the mortgage loan arrangements-->
+            <div id="loan">
+                    <p>
+                        We arrange special mortgage loans with lower interests <br> when you're buying a home from us.
+                    </p>
+            </div>
+        </main>
+        
+        <!--footer of the page-->
+        <footer>
+                <div>
+                    <p>2020&copy; All rights reserved</p>
+                </div>
+        </footer>
+        
+    </body>
+</html>

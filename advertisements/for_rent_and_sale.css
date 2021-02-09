@@ -1,0 +1,93 @@
+
+/*The following code snippet add styles to the vertical navigation bar*/
+#navigation_for_areas_table{
+    width: 180px;
+    text-align: left;
+    background-color: rgb(173, 101, 240);
+    border-collapse: collapse;
+}
+
+/*The following code snippet add styles to the heading of the vertical navigation bar*/
+#navigation_for_areas_heading{
+    padding: 15px;
+    color: white;
+    background: rgb(124, 39, 202);
+    border: none;
+}
+
+/*Styles for the sub-navigation to different areas*/
+.area{
+    padding: 5px 15px;
+    padding-left: 35px;
+}
+.area a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Styles for the advertisements container*/
+#properties_container{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 760px;
+    text-align: center;
+    vertical-align: top;
+    top: 0;
+}
+
+/*Styles for the sub-navigation to different property types*/
+#property_types_nav{
+    padding: 10px 0;
+    background: rgb(124, 39, 202) ;
+
+}
+
+#property_types{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#property_types th{
+    padding: 0 20px;
+}
+
+#property_types_nav a:active,
+#property_types_nav a:hover{
+    color: rgb(231, 211, 248);
+}
+
+#property_types a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Styles for the property type/are heading of the page*/
+#properties_container h3{
+    width: 760px;
+    background:   rgb(124, 39, 202);
+    padding: 10px 0;
+    color: white;
+    margin: 10px 0;
+}
+
+/*Styles for the advertisement table of a propery*/
+.property_table{
+    border-collapse: collapse;
+    width: 367px;
+    border: 5px  rgb(124, 39, 202) solid;
+    display: inline-block;
+    margin-bottom: 25px;
+    background: rgb(173, 101, 240);
+}
+
+.property_table td{
+    margin: 0;
+    vertical-align: middle;
+    border-top: 5px rgb(124, 39, 202) solid;
+    border-top: 5px rgb(124, 39, 202) solid;
+    margin-bottom: 10px;
+    width: 355px;
+    text-align: left;
+    color: white;
+}

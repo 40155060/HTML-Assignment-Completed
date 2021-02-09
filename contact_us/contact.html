@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Special meta tags-->
+        <meta name="description" content="Contact details of Houses R US">
+        <meta name="keywords" content="contact houses r us, houses r uses contact, contact details houses r us">
+        <meta name="author" content="K G M Withanawasam">
+        
+        <link rel="shortcut icon" href="../images/page_icon.png"> <!--Sets a shortcut icon for head of the page-->
+        
+
+        <link rel="stylesheet" href="../shared.css"> <!--links the gtml file to an external style sheet (CSS file)-->
+        <link rel="stylesheet" href="contact.css">
+        <script src="form.js"></script>
+        
+        <title>Houses R US</title><!-- sets the title of the head-->
+    </head>
+
+    <body>
+        <header id="main_header">
+            <div style="padding: 5px;">
+                <div id="header_image_container">
+                    <img src="../images/home.png" alt="image of the home icon"> <!-- image source: https://www.clipartmax.com/middle/m2H7G6N4G6b1H7G6_simplify-the-workflow-even-in-your-most-complex-scanning-white-house-icon/ -->
+                </div>
+                <div id="header_text">
+                    <h1>Houses R US</h1>
+                </div>
+            </div>
+
+            <nav id="main_nav_bar" > <!--The following nav box and contains the main naviation bar-->
+                <table id="main_nav_bar_container">
+                    <tr>
+                        <th><a href="../index.html" title="Go back to Home">Home</a></th> <!--This hyperlink direct user to home page-->
+                        <th><a href="../advertisements/for_sale/for_sale.html" title="Go to homes for sale">For Sale</a></th><!--This hyperlink direct user to homes for sale page-->
+                        <th><a href="../advertisements/for_rent/for_rent.html" title="go to homes for rent">For Rent</a></th><!--This hyperlink direct user to homes for rent page-->
+                        <th><a href="" title="Go to contact us">Contact Us</a></th> <!--This hyperlink direct user to contact us page-->
+                    </tr>
+                </table>
+            </nav>
+            
+        </header>
+        <main>
+            <!--The following form is the feed back form-->
+            <form
+            action="mailto:40155060@uxbridge.ac.uk"
+            method="post"
+            name="response"
+            onsubmit="return checkData()">
+
+            <h2 id="form_heading">Enquiry Form</h2>
+            <table>
+                
+                <tr> <!--User has to delect a title from the given titles-->
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        <!--Available titles-->
+                        <select name="TITLE" id="TITLE">
+                            <option value="0"></option>
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
+                            <option value="Miss">Miss.</option>
+                            <option value="Dr">Dr.</option>
+                            <option value="prof">Prof.</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!--label for name-->
+                        Your Name:
+                    </td>
+                    <td>
+                        <!--space for user to enter the name-->
+                        <input type="text" name="NAME" id="NAME" style="width: 100%;" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Phone Number
+                    </td>
+                    <td>
+                        <input type="text" id="CONTACT_NUMBER" name="CONTACT_NUMBER" style="width: 100%;">
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td>
+                        <!--label for email-->
+                        E-mail
+                    </td>
+                    <td>
+                        <!--space for user to enter the email-->
+                        <input type="text" name="EMAIL" id="EMAIL" style="width: 100%;" />
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <!--label for comments-->
+                        Comments
+                    </td>
+                    <td>
+                        <!--space for user to enter the comment-->
+                        <textarea type="text" rows="10" name="comments" id="COMMENTS" style="width: 100%;"></textarea> </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        Best ways to contact:
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <div style="display: inline-block; margin-right: 20px;">
+                            <input type="checkbox" name="BEST_WAY_TO_CONTACT" id="BEST_WAY_TO_CONTACT_CALL" value="CALL"> Call
+                        </div>
+
+                        <div style="display: inline-block; margin-right: 20px;">
+                            <input type="checkbox" name="BEST_WAY_TO_CONTACT" id="BEST_WAY_TO_CONTACT_MESSAGE" value="TEXT MESSAGE">Text Message
+                        </div>
+
+                        <div style="display: inline-block;">
+                            <input type="checkbox" name="BEST_WAY_TO_CONTACT" id="BEST_WAY_TO_CONTACT_EMAIL" value="E_MAIL">E-mail
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!--label for genter-->
+                        This is a complaint
+                    </td>
+
+                    <td>
+                        <!--available options for gender to select as radio-buttons-->
+                        <input type="radio" id="YES" name="COMPLAINT" value="female" style="margin-left: 5px;" />
+                        <label for="YES">Yes</label>
+                        <input type="radio" id="NO" name="COMPLAINT" value="male" />
+                        <label for="NO">No</label>
+                    </td>
+                </tr>
+                
+                <tr id="submit_button_container">
+                    <td colspan="2">
+                        <!--Submit button to email the form-->
+                        <input type="submit" value="Email this form" id="submit_button"/>
+                    </td>
+                </tr>
+            </table>  
+            </form>
+
+
+
+            <div id="contact_details_container">
+                <table id="contact_details">
+                    <tr>
+                        <th style="padding-bottom: 20px;">Call Us:</th>
+                        <td style="padding-bottom: 20px;">020 111 11111</td>
+                    </tr>
+                    <tr >
+                        <th style="padding-bottom: 20px;">Visit Us:</th>
+                        <td style="padding-bottom: 20px;">No 165,<br> Lverson Road, <br> West Hampstead,  <br>  NW6 2BR</td>
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="2" style="text-align: center; padding: 0;">
+                            <!--map-->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.10502364241!2d-0.19540928469223254!3d51.5479731796418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761079939176f3%3A0x2b721a5b5be64cc3!2s163-189%20Iverson%20Rd%2C%20West%20Hampstead%2C%20London!5e0!3m2!1sen!2suk!4v1612376029894!5m2!1sen!2suk" height="370" width="374" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </td>
+                    </tr>             
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>2020&copy; All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

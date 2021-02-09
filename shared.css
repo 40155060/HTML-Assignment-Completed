@@ -1,0 +1,76 @@
+/* styles for the body of every page*/
+body{
+    text-align: center;
+    margin: 0;
+    min-width: 1000px;
+    background-color: rgb(246, 235, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles for the header of every page*/
+header{
+    background-color: rgb(124, 39, 202);
+}
+
+/* styles for the logo container in the header*/
+#header_image_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* styles for the main heading (Company's name)  container of every page*/
+#header_text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* styles for main heading (Compan's name) of every page*/
+#header_text h1{
+    color: white;
+}
+
+/* styles for the main navigation container of every page*/
+#main_nav_bar_container{
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 10px ;
+ padding-bottom: 10px;
+}
+
+/* styles for the main navigation of every page*/
+#main_nav_bar_container th{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* styles for the main navigation buttons of every page*/
+#main_nav_bar_container a{
+        text-decoration: none;
+        color: white;
+}
+
+/* styles for the main navigation buttons of every page*/
+#main_nav_bar_container th a:active,
+#main_nav_bar_container th a:hover{
+    color: rgb(231, 211, 248);
+}
+
+/* styles for the primary content area of every page*/
+main{
+    display: inline-block;
+    width: 1000px;
+    margin: 20px auto ;
+    text-align: center;
+}
+
+/* styles for the footer of every page*/
+footer{
+    display: inline-block;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    background-color: rgb(124, 39, 202);
+    color: white;
+    height: 110px;
+    padding-top: 35px;
+}

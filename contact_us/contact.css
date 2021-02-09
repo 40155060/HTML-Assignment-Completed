@@ -1,0 +1,74 @@
+
+form{
+    display: inline-block;
+    margin: 50px 20px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(198, 150, 243);
+    border: rgb(151, 72, 224) 5px solid;
+    color: white;
+    width: 35%;
+    vertical-align: middle;
+    width: 400px;
+}
+
+#form_heading{
+    display: inline-block;
+    text-align: center;
+    background:  rgb(151, 72, 224);
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+    border: 2px solid  rgb(151, 72, 224);
+}
+
+form table{
+    width: 400px;
+    padding: 20px 30px;
+    padding-bottom: 20px;
+}
+
+form table td{
+    padding-bottom: 10px; ;
+}
+
+#submit_button_container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit_button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 10px;
+    background-color: rgb(151, 72, 224);
+    color: white;
+}
+
+
+#contact_details_container{
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+    background:  rgb(151, 72, 224);
+    height: 573px;
+}
+
+
+#contact_details{
+    display: inline-block;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+#contact_details td,
+#contact_details th{
+text-align: left;
+padding: 10px;
+}
+
+#contact_details iframe{
+    width: 380px;
+    
+}

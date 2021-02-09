@@ -1,0 +1,56 @@
+/*Styles for the primary content area of home page*/
+
+#home_image_container{
+    display: inline-block;
+    background-image: url("./images/home_image_1.jpg");
+    width: 800px;
+    height: 500px ;
+}
+
+#home_image_container div{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(71, 71, 71,0.8);
+    width: 700px;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+
+main h2{
+    display: inline-block;
+    background: rgb(124, 39, 202);
+    width: 800px;
+    padding: 10px 0;
+    color: white;
+    margin-top: 30px;
+}
+
+/*Styles for the property advertisements of home page*/
+#properties_tables_container{
+    width: 800px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#properties_tables_container table td{
+    padding: 5px;
+}
+
+.property_table{
+    width: 375px;
+    background: rgb(124, 39, 202);
+
+}
+
+/*Styles for the advertisement about special lon arrangements*/
+#loan{
+    background: rgb(124, 39, 202);
+    width: 800px;
+    color: white;
+    display: inline-block;
+    font-size: 20px ;
+    font-weight: 15px;
+}
